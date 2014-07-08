@@ -1,4 +1,4 @@
-angular.module('myApp', [])
+angular.module('myApp', ['ngAnimate'])
 	.controller('FormCtrl', function($scope, $rootScope) {
 		$scope.submit = function() {
 			if($scope.myForm.$valid) {
@@ -15,7 +15,7 @@ angular.module('myApp', [])
       		console.log($scope.madLibs);
       		$scope.myForm.$setPristine();
       		$scope.submitted = false;
-      		$scope.results = false;
+      		$rootScope.results = false;
 		}
 	})
 	.controller('MyCtrl', function($scope) {

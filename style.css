@@ -1,0 +1,79 @@
+	html, body, input {
+    		font-family: 'Indie Flower', cursive;
+    		
+    	}
+    	.smiley_face {
+    		height: 146px;
+            vertical-align: top;
+
+    	}
+    	
+
+    	.header {
+    		width: 570px;
+			margin: 0 auto;
+    	}
+
+    	.title_container {
+    		display: inline-block;
+    		text-align: center;
+    	}
+
+    	.logo {
+    		height: 90px;
+    	}
+
+    	h1 {
+    		font-size: 2.5em;
+    		margin: 0;
+    	}
+    	h2 {
+    		font-size: 2em;
+    	}
+    	
+
+    	.main {
+    		
+
+		}
+
+		input {
+			margin-bottom: 10px;
+			padding: 6px 12px;
+		}
+
+		.outputs {
+			float: left;
+			font-size: 1.3em;
+		}
+
+		.error {
+			background: rgb(255, 226, 226);
+		}
+
+		
+
+		.ng-hide-remove {
+    		-webkit-animation: slideInLeft 2.5s;
+    		animation: slideInLeft 2.5s;
+		}
+ 
+		.ng-hide-add {
+		    -webkit-animation: slideOutRight 2.5s;
+		    animation: slideOutRight 2.5s;
+		    display: block !important;
+		}
+
+		.results {
+			position: absolute;
+		}
+
+		.red {
+			text-decoration: underline;
+			color: red;
+		}
+
+        .header {
+            margin-bottom: 40px;
+            margin-top: 20px;
+        }
