@@ -4,7 +4,7 @@
 angular.module('myApp', ['ngAnimate'])
 
 //Create an Angular Controller
-.controller('FormCtrl', function( $scope) {
+.controller('FormCtrl', function($scope) {
 
 	//Submit Funciton when Form is submitted
 	$scope.submit = function() {
@@ -15,12 +15,12 @@ angular.module('myApp', ['ngAnimate'])
 			$scope.results = true;
 		} else {
 			console.log("Invalid");
-			
 		}
 	};
 	
 	//Reset Our Variables and Form
 	$scope.reset = function() {
+
   		$scope.madLibs = {};
   		$scope.myForm.$setPristine();
   		$scope.submitted = false;
