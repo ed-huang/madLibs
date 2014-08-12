@@ -42,8 +42,6 @@ input {
 	background: rgb(255, 226, 226);
 }
 
-
-
 .results {
 	position: absolute;
 }
@@ -55,7 +53,6 @@ input {
 
 
 /* Animations for Text */
-
 .ng-hide-remove {
     -webkit-animation: slideInLeft 2.5s;
     animation: slideInLeft 2.5s;
