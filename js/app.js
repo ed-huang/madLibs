@@ -5,9 +5,10 @@ angular.module('myApp', ['ngAnimate'])
 
 //Create an Angular Controller
 .controller('FormCtrl', function($scope) {
-
+    var submitted;
 	//Submit Funciton when Form is submitted
 	$scope.submit = function() {
+        // console.log($scope.madLibs.male_name);
 		$scope.submitted = true;
 		
 		//If the form is valid
